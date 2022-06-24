@@ -415,8 +415,14 @@ h1 {
   color: #FFFFFF;
   padding: 20px 46px 21px;
   background-color: #F26022;
+  border: 1px solid #F26022;
   border-radius: 76px;
   display: inline-block;
+}
+
+.inquiry-form-btn a:hover {
+  background: #fff;
+  color: #ff701e;
 }
 
 .engage-inquiry-form-btn a {
@@ -425,4 +431,9 @@ h1 {
   border: 1px solid #F26022;
   border-radius: 76px;
   display: inline-block;
+}
+
+.engage-inquiry-form-btn a:hover {
+  background-color: #F26022;
+  color: #fff;
 }
