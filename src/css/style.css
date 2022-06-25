@@ -52,6 +52,11 @@ ul {
   font-size: 1.5rem;
 }
 
+.bg-pink {
+  background-color: #F2602233;
+  font-weight: bold;
+}
+
 .employee-talk {
   color: #fff;
   margin: 0 auto;
@@ -145,8 +150,13 @@ h1 {
   margin-bottom: 60px;
 }
 
+.fw-bold {
+  font-weight: bold;
+}
+
 .fw-normal {
   font-weight: normal;
+
 }
 
 .character-title {
