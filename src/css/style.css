@@ -44,18 +44,17 @@ ol, ul {
 .employee-talk {
   color: #fff;
   margin: 0 auto;
-  width: 120.0rem;
+  max-width: 1200px;
   height: 41.7rem;
-  padding-top: 5.9rem;
+  padding-top: 59px;
 }
 
 .employee-talk-bk-orange {
   position: relative;
+  max-width: 981px;
   background: linear-gradient(155deg, #F59050 0%, #ED5A1B 100%);
   opacity: 1;
   padding: 108px 813px 82px 186px;
-  max-width: 981px;
-  height: auto;
 }
 
 
@@ -91,10 +90,10 @@ h1 {
 .employee-talk-top-img {
   background: url(../img/IMG_08.png) no-repeat center/cover;
   position: absolute;
-  top: 19.9rem;
-  left: 87.8rem;
-  width: 68.2rem;
-  height: 35.7rem;
+  top: 60px;
+  right: 219px;
+  width: 682px;
+  height: 357px;
 }
 
 .mb60 {
@@ -415,8 +414,14 @@ h1 {
   color: #FFFFFF;
   padding: 20px 46px 21px;
   background-color: #F26022;
+  border: 1px solid #F26022;
   border-radius: 76px;
   display: inline-block;
+}
+
+.inquiry-form-btn a:hover {
+  background: #fff;
+  color: #ff701e;
 }
 
 .engage-inquiry-form-btn a {
@@ -425,4 +430,9 @@ h1 {
   border: 1px solid #F26022;
   border-radius: 76px;
   display: inline-block;
+}
+
+.engage-inquiry-form-btn a:hover {
+  background-color: #F26022;
+  color: #fff;
 }
