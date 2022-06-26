@@ -180,10 +180,10 @@ h1 {
   background: url(../img/IMG_08.png) no-repeat center center;
   background-size: cover;
   position: absolute;
-  top: 60px;
-  right: -219px;
-  width: 682px;
-  height: 357px;
+  top: 15%;
+  right: -23%;
+  width: 69%;
+  height: 100%;
 }
 
 .sp-employee-talk-top-img {
