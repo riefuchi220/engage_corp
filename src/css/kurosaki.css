@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+.key {
+  margin-bottom: 317px;
+}
+.key-inner {
+  width: 120rem;
+  height: 46rem;
+  color: #fff;
+  background: url(../img/IMG_01.png) no-repeat center/cover;
+  position: relative;
+  margin: 0 auto;
+}
+.key-title {
+  position: absolute;
+  font-size: 5rem;
+  top: 19.3rem;
+  left: 16.9rem;
+  font-weight: normal;
+}
+.key-img {
+  width: 43.5rem;
+  position: absolute;
+  right: 11rem;
+  top: -4.8rem;
+}
+.key-text {
+  width: 43.5rem;
+  line-height: 1.5;
+  margin: 60px 0 0 110px;
+}
+
+.about {
+  position: relative;
+  margin-bottom: 400px;
+}
+.about-orange {
+  background: linear-gradient(111deg, #F59050 0%, #ED5A1B 100%);
+  width: 900px;
+  height: 400px;
+  margin-left: auto;
+}
+.about-text {
+  width: 658px;
+  padding: 70px 100px;
+  position: absolute;
+  background-color: #fff;
+  top: 70px;
+  right: 100px;
+  box-sizing: border-box;
+}
+
+/* 要素ゾーン */
+.main {
+  padding-top: 13.6rem;
+  width: 1200px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* tailwind zone */
+.fixed { position: fixed; }
+.w-full { width: 100%; }
+.mb-60 {margin-bottom: 60px}
+.mb-32 {margin-bottom: 32px}
+

@@ -5,11 +5,10 @@ body {
   font-family: "Hiragino Kaku Gothic ProN";
   color: #707070;
   background-color: #fff;
-  line-height: 1;
+  line-height: 1.5;
   margin: 0 auto;
   position: relative;
   box-sizing: border-box;
-  width: 1200px;
 }
 
 html {
@@ -70,8 +69,7 @@ ul {
   max-width: 981px;
   background: linear-gradient(155deg, #F59050 0%, #ED5A1B 100%);
   opacity: 1;
-  padding: 95px 0 80px 186px;
-  box-sizing: border-box;
+  padding: 108px 0 82px 182px;
 }
 
 h1 {
