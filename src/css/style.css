@@ -615,32 +615,40 @@ h1 {
 }
 
 @media screen and (max-width:600px) {
+
   /*　for iPhone Landscape　(iPhone 横)　*/
   body {
     text-align: center;
   }
+
   .container {
     margin: 0 20px;
   }
+
   .l-header__nav-list {
     margin: 22px 0;
   }
+
   .employee-talk {
     max-width: 600px;
     height: auto;
     padding-top: 0;
   }
+
   .employee-talk-bk-orange {
     max-width: 600px;
     padding: 46px 116px 136px 112px;
     text-align: center;
   }
+
   .employee-talk-title-content {
     width: 100%;
   }
+
   .employee-talk-top-img {
     display: none;
   }
+
   .sp-employee-talk-top-img {
     display: block;
     background: url(../img/IMG_08.png) no-repeat center center;
@@ -652,88 +660,110 @@ h1 {
     width: 388px;
     height: 203px;
   }
+
   .character-title {
     padding-top: 153px;
     font-size: 2.4rem;
     margin-bottom: 33px;
   }
+
   .character-lists {
     justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 55px;
   }
+
   .character-list {
     width: 190px;
     margin-left: 8px;
   }
+
   .character-list:first-child {
     margin-left: 0;
   }
+
   .table-of-contents {
     margin: 0 0 24px;
     padding: 40px 30px 55px 47px;
   }
+
   .sp-inspire-title {
     text-align: center;
     margin-bottom: 49px;
   }
+
   .inspire-member-left-img {
     width: 50px;
     height: 50px;
     margin-right: 8px;
   }
+
   .inspire-member-left-name {
     margin-right: 8px;
     font-size: 1.1rem;
   }
+
   .inspire-member-right-img {
     width: 50px;
     height: 50px;
     margin-left: 8px;
   }
+
   .inspire-member-right-name {
     margin-left: 8px;
     font-size: 1.1rem;
   }
+
   .job-description {
     display: block;
     padding-bottom: 89px
   }
+
   .job-description-img {
     margin: auto;
   }
+
   .job-description-name {
     font-size: 1.2rem;
   }
+
   .work-content-example-title {
     margin-top: 0;
   }
+
   .work-content-example-text {
     line-height: 1.5;
     padding-bottom: 34px;
   }
+
   .work-content-example-contents {
     display: none;
   }
+
   .sp-work-content-example-contents {
     display: block;
     background-color: #fff;
   }
+
   .sp-work-content-example-content-text {
     margin: 0;
     padding-top: 26px;
   }
+
   .work-content-example-arrow-right {
     padding: 0 40px;
   }
+
   .work-content-example-arrow-right {
     display: none;
   }
+
   .work-content-example-sub-contents {
     display: flex;
     justify-content: space-around;
     padding: 16px 53px 22px 54px;
   }
+
   .triangle-bottom {
     width: 0;
     height: 0;
@@ -742,48 +772,61 @@ h1 {
     border-top: 25px solid #F26022;
     margin: 20px auto;
   }
+
   .sp-work-content-example-content02 {
     background-color: #fff;
     display: block;
     padding: 25px 76px;
   }
+
   .work-content-example-content02-subtext {
     margin-bottom: 0;
   }
+
   .work-content-example {
     padding: 35px 0 50px;
   }
+
   .work-content-example-outer {
     margin-bottom: 65px;
   }
+
   .inspire-contents {
     padding-bottom: 0;
   }
+
   .inspire-member_subtext {
     padding-bottom: 45px;
   }
+
   .inquiry-outer {
     padding: 43px 0 50px;
   }
+
   .inquiry-text {
     margin: 25px 17px 19px;
   }
+
   .inquiry-btn-content {
     display: inline-block;
   }
+
   .sp-form-btn {
     margin-bottom: 52px;
   }
 }
 
 @media screen and (max-width:427px) {
+
   /*　for iPhone Landscape　(iPhone 横)　*/
   h1 {
     font-size: 4.0rem;
   }
+
   .btn06 {
     padding: 23px 43px;
   }
+
   .sp-employee-talk-top-img {
     width: 360px;
     height: 190px;
