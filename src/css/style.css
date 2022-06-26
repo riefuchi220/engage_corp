@@ -814,6 +814,11 @@ h1 {
   .sp-form-btn {
     margin-bottom: 52px;
   }
+
+  .scroll-to-top-btn {
+    width: 40px;
+    height: 40px;
+  }
 }
 
 @media screen and (max-width:427px) {
