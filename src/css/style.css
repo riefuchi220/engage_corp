@@ -9,7 +9,6 @@ body {
   margin: 0 auto;
   position: relative;
   box-sizing: border-box;
-  width: 1200px;
 }
 
 html {
@@ -185,6 +184,10 @@ h1 {
   right: -219px;
   width: 682px;
   height: 357px;
+}
+
+.sp-employee-talk-top-img {
+  display: none;
 }
 
 .mb60 {
@@ -614,8 +617,7 @@ h1 {
 @media screen and (max-width:600px) {
   /*　for iPhone Landscape　(iPhone 横)　*/
   body {
-    max-width: 600px;
-    width: 428px;
+    text-align: center;
   }
   .container {
     margin: 0 20px;
@@ -637,9 +639,16 @@ h1 {
     width: 100%;
   }
   .employee-talk-top-img {
+    display: none;
+  }
+  .sp-employee-talk-top-img {
+    display: block;
+    background: url(../img/IMG_08.png) no-repeat center center;
     background-size: cover;
-    top: 267px;
-    right: 20px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
     width: 388px;
     height: 203px;
   }
@@ -649,7 +658,7 @@ h1 {
     margin-bottom: 33px;
   }
   .character-lists {
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     margin-bottom: 55px;
   }
@@ -663,9 +672,6 @@ h1 {
   .table-of-contents {
     margin: 0 0 24px;
     padding: 40px 30px 55px 47px;
-  }
-  .inspire-title {
-    text-align: left;
   }
   .sp-inspire-title {
     text-align: center;
@@ -725,7 +731,7 @@ h1 {
   }
   .work-content-example-sub-contents {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 16px 53px 22px 54px;
   }
   .triangle-bottom {
@@ -761,7 +767,6 @@ h1 {
   }
   .inquiry-text {
     margin: 25px 17px 19px;
-    text-align: left;
   }
   .inquiry-btn-content {
     display: inline-block;
