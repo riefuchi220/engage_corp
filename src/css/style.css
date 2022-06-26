@@ -27,6 +27,7 @@ img {
 
 a {
   text-decoration: none;
+  color: #707070;
 }
 
 a:hover {
@@ -203,6 +204,8 @@ h1 {
   padding-top: 72px;
   margin-top: 0;
   margin-bottom: 60px;
+  font-size: 2.5rem;
+  margin-bottom: 60px;
 }
 
 .l-header__nav-list {
@@ -313,6 +316,7 @@ h1 {
 .inspire-member-left-img,
 .inspire-member-left-name {
   margin-right: 75px;
+  font-size: 1.5rem;
 }
 
 .inspire-member-right-img,
@@ -423,6 +427,14 @@ h1 {
 
 .work-content-example-content02-subtext {
   margin-top: 20.5px;
+}
+
+.sp-work-content-example-contents {
+  display: none;
+}
+
+.sp-work-content-example-content02 {
+  display: none;
 }
 
 
@@ -599,8 +611,162 @@ h1 {
   transform: scale(1.1);
 }
 
-@media screen and (min-width:601px) and ( max-width:1199px) {
-  /*　画面サイズが768pxから1024pxまではここを読み込む　*/{
-    
+@media screen and (max-width:600px) {
+  /*　for iPhone Landscape　(iPhone 横)　*/
+  body {
+    max-width: 600px;
+    width: 428px;
+  }
+  .container {
+    margin: 0 20px;
+  }
+  .l-header__nav-list {
+    margin: 22px 0;
+  }
+  .employee-talk {
+    max-width: 600px;
+    height: auto;
+    padding-top: 0;
+  }
+  .employee-talk-bk-orange {
+    max-width: 600px;
+    padding: 46px 116px 136px 112px;
+    text-align: center;
+  }
+  .employee-talk-title-content {
+    width: 100%;
+  }
+  .employee-talk-top-img {
+    background-size: cover;
+    top: 267px;
+    right: 20px;
+    width: 388px;
+    height: 203px;
+  }
+  .character-title {
+    padding-top: 153px;
+    font-size: 2.4rem;
+    margin-bottom: 33px;
+  }
+  .character-lists {
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 55px;
+  }
+  .character-list {
+    width: 190px;
+    margin-left: 8px;
+  }
+  .character-list:first-child {
+    margin-left: 0;
+  }
+  .table-of-contents {
+    margin: 0 0 24px;
+    padding: 40px 30px 55px 47px;
+  }
+  .inspire-title {
+    text-align: left;
+  }
+  .sp-inspire-title {
+    text-align: center;
+    margin-bottom: 49px;
+  }
+  .inspire-member-left-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 8px;
+  }
+  .inspire-member-left-name {
+    margin-right: 8px;
+    font-size: 1.1rem;
+  }
+  .inspire-member-right-img {
+    width: 50px;
+    height: 50px;
+    margin-left: 8px;
+  }
+  .inspire-member-right-name {
+    margin-left: 8px;
+    font-size: 1.1rem;
+  }
+  .job-description {
+    display: block;
+    padding-bottom: 89px
+  }
+  .job-description-img {
+    margin: auto;
+  }
+  .job-description-name {
+    font-size: 1.2rem;
+  }
+  .work-content-example-title {
+    margin-top: 0;
+  }
+  .work-content-example-text {
+    line-height: 1.5;
+    padding-bottom: 34px;
+  }
+  .work-content-example-contents {
+    display: none;
+  }
+  .sp-work-content-example-contents {
+    display: block;
+    background-color: #fff;
+  }
+  .sp-work-content-example-content-text {
+    margin: 0;
+    padding-top: 26px;
+  }
+  .work-content-example-arrow-right {
+    padding: 0 40px;
+  }
+  .work-content-example-arrow-right {
+    display: none;
+  }
+  .work-content-example-sub-contents {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 53px 22px 54px;
+  }
+  .triangle-bottom {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-top: 25px solid #F26022;
+    margin: 20px auto;
+  }
+  .sp-work-content-example-content02 {
+    background-color: #fff;
+    display: block;
+    padding: 25px 76px;
+  }
+  .work-content-example-content02-subtext {
+    margin-bottom: 0;
+  }
+  .work-content-example {
+    padding: 35px 0 50px;
+  }
+  .work-content-example-outer {
+    margin-bottom: 65px;
+  }
+  .inspire-contents {
+    padding-bottom: 0;
+  }
+  .inspire-member_subtext {
+    padding-bottom: 45px;
+  }
+  .inquiry-outer {
+    padding: 43px 0 50px;
+  }
+  .inquiry-text {
+    margin: 25px 17px 19px;
+    text-align: left;
+  }
+  .inquiry-btn-content {
+    display: inline-block;
+  }
+  .sp-form-btn {
+    margin-bottom: 52px;
   }
 }
