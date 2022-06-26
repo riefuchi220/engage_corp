@@ -657,8 +657,8 @@ h1 {
     top: 70%;
     left: 50%;
     transform: translateX(-50%);
-    width: 388px;
-    height: 203px;
+    width: 90%;
+    height: 60%;
   }
 
   .character-title {
@@ -825,10 +825,5 @@ h1 {
 
   .btn06 {
     padding: 23px 43px;
-  }
-
-  .sp-employee-talk-top-img {
-    width: 360px;
-    height: 190px;
   }
 }
