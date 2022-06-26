@@ -775,3 +775,17 @@ h1 {
     margin-bottom: 52px;
   }
 }
+
+@media screen and (max-width:427px) {
+  /*　for iPhone Landscape　(iPhone 横)　*/
+  h1 {
+    font-size: 4.0rem;
+  }
+  .btn06 {
+    padding: 23px 43px;
+  }
+  .sp-employee-talk-top-img {
+    width: 360px;
+    height: 190px;
+  }
+}
