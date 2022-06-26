@@ -52,6 +52,14 @@ ul {
   font-size: 1.5rem;
 }
 
+header {
+  position: fixed;
+  height: 80px;
+  z-index: 10;
+  background-color: #fff;
+  width: 100%;
+}
+
 .bg-pink {
   background-color: #F2602233;
   font-weight: bold;
@@ -62,7 +70,7 @@ ul {
   margin: 0 auto;
   max-width: 1200px;
   height: 417px;
-  padding-top: 59px;
+  padding-top: 130px;
 }
 
 .employee-talk-bk-orange {
@@ -625,6 +633,10 @@ h1 {
     margin: 0 20px;
   }
 
+  header {
+    height: 64px;
+  }
+
   .l-header__nav-list {
     margin: 22px 0;
   }
@@ -632,7 +644,7 @@ h1 {
   .employee-talk {
     max-width: 600px;
     height: auto;
-    padding-top: 0;
+    padding-top: 64px;
   }
 
   .employee-talk-bk-orange {
