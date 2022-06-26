@@ -9,10 +9,11 @@ body {
   margin: 0 auto;
   position: relative;
   box-sizing: border-box;
+  width: 1200px;
 }
 
 html {
-  font-size: 62.5%
+  font-size: 62.5%;
 }
 
 main {
@@ -66,7 +67,7 @@ ul {
 
 .employee-talk-bk-orange {
   position: relative;
-  width: 981px;
+  max-width: 981px;
   background: linear-gradient(155deg, #F59050 0%, #ED5A1B 100%);
   opacity: 1;
   padding: 95px 0 80px 186px;
@@ -176,7 +177,8 @@ h1 {
 }
 
 .employee-talk-top-img {
-  background: url(../img/IMG_08.png) no-repeat center/cover;
+  background: url(../img/IMG_08.png) no-repeat center center;
+  background-size: cover;
   position: absolute;
   top: 60px;
   right: -219px;
@@ -222,6 +224,7 @@ h1 {
   margin: 0 auto;
   text-align: center;
 }
+
 
 .character-lists {
   display: flex;
@@ -594,4 +597,10 @@ h1 {
 /* ホバー時のスタイル */
 .scroll-to-top-btn:hover {
   transform: scale(1.1);
+}
+
+@media screen and (min-width:601px) and ( max-width:1199px) {
+  /*　画面サイズが768pxから1024pxまではここを読み込む　*/{
+    
+  }
 }
