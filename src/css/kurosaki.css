@@ -30,31 +30,35 @@
   margin: 60px 0 0 110px;
 }
 
-.about {
+.about-first {
   position: relative;
-  margin-bottom: 400px;
+  margin-bottom: 440px;
+  width: 1400px;
 }
 .about-orange {
   background: linear-gradient(111deg, #F59050 0%, #ED5A1B 100%);
   width: 900px;
   height: 400px;
   margin-left: auto;
+  padding: 70px 100px;
 }
 .about-text {
-  width: 658px;
-  padding: 70px 100px;
-  position: absolute;
+  width: 66rem;
   background-color: #fff;
-  top: 70px;
-  right: 100px;
+  padding: 70px 100px;
+  margin-left: auto;
   box-sizing: border-box;
+}
+.about-img {
+  width: 64rem;
+  position: absolute;
+  top: 143px;
 }
 
 /* 要素ゾーン */
 .main {
   padding-top: 13.6rem;
-  width: 1200px;
-  max-width: 1200px;
+  width: 1400px;
   margin: 0 auto;
 }
 
