@@ -177,7 +177,7 @@ h1 {
 }
 
 .employee-talk-top-img {
-  background: url(../img/IMG_08.png) no-repeat center center;
+  background: url(../img/icons/IMG_07_01.png) no-repeat center center;
   background-size: cover;
   position: absolute;
   top: 15%;
@@ -311,6 +311,14 @@ h1 {
   align-items: flex-start;
   margin-bottom: 50px;
 }
+
+.inspire-content-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 50px;
+}
+
 
 .inspire-member-left-img,
 .inspire-member-left-name {
@@ -648,7 +656,7 @@ h1 {
 
   .sp-employee-talk-top-img {
     display: block;
-    background: url(../img/IMG_08.png) no-repeat center center;
+    background: url(../img/icons/IMG_07_01.png) no-repeat center center;
     background-size: cover;
     position: absolute;
     top: 70%;
