@@ -26,13 +26,13 @@
 }
 .key-text {
   width: 43.5rem;
-  line-height: 1.5;
+  line-height: 1.8;
   margin: 60px 0 0 110px;
 }
 
 .about-first {
   position: relative;
-  margin-bottom: 440px;
+  margin-bottom: 270px;
   width: 1400px;
 }
 .about-orange {
@@ -55,6 +55,74 @@
   top: 143px;
 }
 
+.about-second {
+  position: relative;
+  margin-bottom: 410px;
+  width: 1400px;
+}
+.about-orange-second {
+  background: linear-gradient(111deg, #F59050 0%, #ED5A1B 100%);
+  width: 900px;
+  height: 330px;
+  margin-top: 354px;
+  position: absolute;
+}
+.about-text-second {
+  width: 66rem;
+  background-color: #fff;
+  padding: 0 100px 70px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+}
+.about-img-right {
+  width: 64rem;
+  position: relative;
+  z-index: 1;
+}
+
+.about-third {
+  position: relative;
+  margin-bottom: 300px;
+  width: 1400px;
+}
+.about-orange-third {
+  background: linear-gradient(111deg, #F59050 0%, #ED5A1B 100%);
+  width: 900px;
+  height: 400px;
+  margin-top: 390px;
+  right: 0;
+  position: absolute;
+}
+.about-environment {
+  background-color: #F8F8F8;
+  width: 224px;
+  height: 240px;
+  padding: 12px 20px;
+}
+.about-environment-list {
+  list-style-type: disc;
+  list-style-position: inside;
+}
+.about-img-third-top {
+  width: 320px;
+  position: absolute;
+  z-index: -1;
+}
+.about-img-third-bottom {
+  width: 540px;
+  margin: 110px 0 0 110px;
+}
+.about-text-third {
+  width: 66rem;
+  background-color: #fff;
+  padding: 0 100px 70px;
+  margin-right: 100px;
+  box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+}
+
 /* 要素ゾーン */
 .main {
   padding-top: 13.6rem;
@@ -64,7 +132,17 @@
 
 /* tailwind zone */
 .fixed { position: fixed; }
+.relative { position: relative; }
+.flex { display: flex; }
+.justify-end { justify-content: flex-end;}
+.justify-start { justify-content: flex-start;}
+.text-center{ text-align: center;}
 .w-full { width: 100%; }
-.mb-60 {margin-bottom: 60px}
+.m-0 {margin: 0;}
+.mt-0 {margin-top: 0;}
+.mb-20 {margin-bottom: 20px}
 .mb-32 {margin-bottom: 32px}
+.mb-60 {margin-bottom: 60px}
+.mr-12 {margin-right: 12px;}
+
 
