@@ -5,7 +5,7 @@ body {
   font-family: "Hiragino Kaku Gothic ProN";
   color: #707070;
   background-color: #fff;
-  line-height: 1.5;
+  line-height: 1;
   margin: 0 auto;
   position: relative;
   box-sizing: border-box;
@@ -74,7 +74,8 @@ header {
   max-width: 981px;
   background: linear-gradient(155deg, #F59050 0%, #ED5A1B 100%);
   opacity: 1;
-  padding: 108px 0 82px 182px;
+  padding: 95px 0 80px 186px;
+  box-sizing: border-box;
 }
 
 h1 {
@@ -176,7 +177,7 @@ h1 {
 }
 
 .employee-talk-top-img {
-  background: url(../img/icons/IMG_07_01.png) no-repeat center center;
+  background: url(../img/icons/IMG_08_01.png) no-repeat center center;
   background-size: cover;
   position: absolute;
   top: 15%;
@@ -195,15 +196,6 @@ h1 {
 
 .fw-normal {
   font-weight: normal;
-
-}
-
-.character-title {
-  padding-top: 72px;
-  margin-top: 0;
-  margin-bottom: 60px;
-  font-size: 2.5rem;
-  margin-bottom: 60px;
 }
 
 .l-header__nav-list {
@@ -226,29 +218,11 @@ h1 {
   text-align: center;
 }
 
-
-.character-lists {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 105px;
-}
-
-.character-list {
-  width: 300px;
-}
-
-.character-list-text {
-  text-align: left;
-}
-
-.character-list-name {
-  font-size: 2rem;
-}
-
 .table-of-contents {
   background-color: #F8F8F8;
   padding: 40px 0 55px;
   margin-bottom: 65px;
+  margin-top: 93px;
 }
 
 .table-of-contents-title {
@@ -310,14 +284,6 @@ h1 {
   align-items: flex-start;
   margin-bottom: 50px;
 }
-
-.inspire-content-1 {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  margin-bottom: 50px;
-}
-
 
 .inspire-member-left-img,
 .inspire-member-left-name {
@@ -655,7 +621,7 @@ h1 {
 
   .sp-employee-talk-top-img {
     display: block;
-    background: url(../img/icons/IMG_07_01.png) no-repeat center center;
+    background: url(../img/icons/IMG_08_01.png) no-repeat center center;
     background-size: cover;
     position: absolute;
     top: 70%;
@@ -665,29 +631,8 @@ h1 {
     height: 60%;
   }
 
-  .character-title {
-    padding-top: 153px;
-    font-size: 2.4rem;
-    margin-bottom: 33px;
-  }
-
-  .character-lists {
-    justify-content: space-around;
-    flex-wrap: wrap;
-    margin-bottom: 55px;
-  }
-
-  .character-list {
-    width: 190px;
-    margin-left: 8px;
-  }
-
-  .character-list:first-child {
-    margin-left: 0;
-  }
-
   .table-of-contents {
-    margin: 0 0 24px;
+    margin: 162px 0 24px;
     padding: 40px 30px 55px 47px;
   }
 
@@ -823,6 +768,11 @@ h1 {
     width: 40px;
     height: 40px;
   }
+  .end-img img {
+    max-width: 90%;
+    height: 100%;
+  }
+
 }
 
 @media screen and (max-width:427px) {
