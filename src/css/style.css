@@ -808,7 +808,8 @@ h1 {
   }
 
   .inquiry-text {
-    margin: 25px 17px 19px;
+    margin: 0 17px 19px;
+    text-align: left;
   }
 
   .inquiry-btn-content {
