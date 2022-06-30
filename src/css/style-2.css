@@ -1,6 +1,9 @@
 @charset "UTF-8";
 
 /* 要素ゾーン */
+body {
+  width: 1400px;
+}
 .main {
   padding-top: 13.6rem;
   max-width: 1400px;
@@ -28,29 +31,33 @@
 }
 .key-inner {
   max-width: 120rem;
+  display: flex;
+  justify-content: space-around;
   height: 46rem;
   color: #fff;
-  background: url(../img/IMG_01.png) no-repeat center/cover;
+  background: url(../img/IMG_01.jpg) no-repeat center/cover;
   position: relative;
   margin: 0 auto;
 }
 .key-title {
-  position: absolute;
-  font-size: 5rem;
+  font-size: 4rem;
   top: 19.3rem;
   left: 16.9rem;
+  margin: 0;
+  padding: 200px 0;
   font-weight: normal;
 }
 .key-img {
   max-width: 43.5rem;
-  position: absolute;
-  right: 11rem;
-  top: -4.8rem;
+  margin-top: -100px;
+}
+.key-img-2 {
+  display: none;
 }
 .key-text {
-  max-width: 43.5rem;
+  width: 30%;
   line-height: 1.8;
-  margin: 60px 0 0 110px;
+  margin: 60px 0 0 10%;
 }
 
 .about-first {
@@ -85,7 +92,7 @@
 }
 .about-orange-second {
   background: linear-gradient(111deg, #F59050 0%, #ED5A1B 100%);
-  max-width: 900px;
+  width: 900px;
   height: 330px;
   margin-top: 354px;
   position: absolute;
@@ -111,7 +118,7 @@
 }
 .about-orange-third {
   background: linear-gradient(111deg, #F59050 0%, #ED5A1B 100%);
-  max-width: 900px;
+  width: 900px;
   height: 400px;
   margin-top: 390px;
   right: 0;
@@ -144,6 +151,12 @@
   box-sizing: border-box;
   position: relative;
   z-index: 1;
+}
+.key-img-sp,
+.about-img-sp,
+.about-img-third-top-sp,
+.about-img-third-bottom-sp {
+  display: none;
 }
 
 /* recruit-info */
@@ -266,6 +279,9 @@
 }
 
 @media screen and (max-width:600px) {
+  body {
+    width: auto;
+  }
   .main {
     padding-top: 64px;
   }
@@ -277,89 +293,117 @@
 
   /* recruit-about */
   .key {
-    margin-bottom: 317px;
+    margin-bottom: 95px;
   }
   .key-inner {
-    max-width: 120rem;
-    height: 46rem;
-    color: #fff;
-    background: url(../img/IMG_01.png) no-repeat center/cover;
-    position: relative;
-    margin: 0 auto;
+    display: block;
+    height: auto;
+    padding-bottom: 50%;
   }
   .key-title {
-    position: absolute;
-    font-size: 5rem;
-    top: 19.3rem;
-    left: 16.9rem;
-    font-weight: normal;
+    padding: 50px 0;
   }
   .key-img {
-    max-width: 43.5rem;
+    display: none;
+  }
+  .key-img-sp {
+    display: inline-block;
+    width: 90%;
+    top: 150px;
+    left: 50%;
+    transform: translateX(-50%);
     position: absolute;
-    right: 11rem;
-    top: -4.8rem;
   }
   .key-text {
-    max-width: 43.5rem;
-    line-height: 1.8;
-    margin: 60px 0 0 110px;
+    width: 90%;
+    margin: 60% auto 0;
+    text-align: left;
   }
 
   .about-first {
     position: relative;
-    margin-bottom: 270px;
+    margin-bottom: 48px;
     max-width: 1400px;
   }
   .about-orange {
-    background: linear-gradient(111deg, #F59050 0%, #ED5A1B 100%);
+    background: none;
     max-width: 900px;
-    height: 400px;
-    margin-left: auto;
-    padding: 70px 100px;
+    height: auto;
+    margin-left: 0;
+    padding: 0;
   }
   .about-text {
-    max-width: 66rem;
+    width: 90%;
     background-color: #fff;
-    padding: 70px 100px;
-    margin-left: auto;
+    padding: 0;
+    margin: 0 auto 52px;
     box-sizing: border-box;
+    text-align: left;
+  }
+  .about-text-title {
+    padding-bottom: 12px;
+    border-bottom: 5px solid #F26022;
+    margin-bottom: 12px;
   }
   .about-img {
-    max-width: 64rem;
-    position: absolute;
-    top: 143px;
+    display: none;
   }
-
+  .about-img-wrap {
+    position: relative;
+  }
+  .about-img-sp {
+    width: 90%;
+    display: inline-block;
+  }
+  .about-orange-sp {
+    position: absolute;
+    top: -10%;
+    width: 90%;
+    height: 80%;
+    background: linear-gradient(111deg, #F59050 0%, #ED5A1B 100%);
+    z-index: -1;
+  }
+  .about-orange-sp-second {
+    position: absolute;
+    bottom: -10%;
+    right: 0;
+    width: 90%;
+    height: 80%;
+    background: linear-gradient(111deg, #F59050 0%, #ED5A1B 100%);
+    z-index: -1;
+  }
   .about-second {
     position: relative;
-    margin-bottom: 410px;
+    margin-bottom: 80px;
     max-width: 1400px;
   }
+  .about-second-content {
+    display: block;
+  }
   .about-orange-second {
-    background: linear-gradient(111deg, #F59050 0%, #ED5A1B 100%);
-    max-width: 900px;
-    height: 330px;
+    background: none;
+    width: 90%;
+    height: auto;
     margin-top: 354px;
     position: absolute;
   }
   .about-text-second {
-    max-width: 66rem;
+    width: 90%;
     background-color: #fff;
-    padding: 0 100px 70px;
+    text-align: left;
+    margin: 0 auto;
+    padding: 0;
     box-sizing: border-box;
     position: relative;
     z-index: 1;
   }
   .about-img-right {
-    max-width: 64rem;
-    position: relative;
-    z-index: 1;
+    display: none;
   }
 
   .about-third {
     position: relative;
-    margin-bottom: 300px;
+    margin-bottom: 65px;
     max-width: 1400px;
   }
   .about-orange-third {
@@ -370,30 +414,53 @@
     right: 0;
     position: absolute;
   }
+  .about-environments {
+    display: block;
+  }
   .about-environment {
+    width: 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
     background-color: #F8F8F8;
-    max-width: 224px;
-    height: 240px;
-    padding: 12px 20px;
+    height: auto;
+    padding: 24px 24px 44px;
   }
   .about-environment-list {
     list-style-type: disc;
     list-style-position: inside;
   }
-  .about-img-third-top {
-    max-width: 320px;
+  .about-orange-sp-third {
     position: absolute;
+    top: 10%;
+    width: 90%;
+    height: 80%;
+    background: linear-gradient(111deg, #F59050 0%, #ED5A1B 100%);
     z-index: -1;
   }
+  .about-img-third-top {
+    display: none;
+  }
   .about-img-third-bottom {
-    max-width: 540px;
-    margin: 110px 0 0 110px;
+    display: none;
+  }
+  .about-img-third-top-sp {
+    display: inline-block;
+    position: absolute;
+    z-index: -1;
+    width: 45%;
+  }
+  .about-img-third-bottom-sp {
+    display: inline-block;
+    width: 70%;
+    margin: 110px 0 0 80px;
   }
   .about-text-third {
-    max-width: 66rem;
+    width: 90%;
     background-color: #fff;
-    padding: 0 100px 70px;
-    margin-right: 100px;
+    padding: 0;
+    margin: 0 auto 56px;
+    text-align: left;
     box-sizing: border-box;
     position: relative;
     z-index: 1;
@@ -402,19 +469,20 @@
   /* recruit-info */
   .recruit {
     /* position: relative; */
-    margin: 0 auto 80px;
+    margin: 0 auto 25%;
     width: 100%;
   }
   .recruit-inner {
-    height: 37rem;
+    height: auto;
+    padding-bottom: 90%;
     color: #fff;
     background: url(../img/IMG_01.jpg) no-repeat center/cover;
     position: relative;
   }
   .recruit-title {
     position: absolute;
-    font-size: 5rem;
-    line-height: 1;
+    font-size: 4rem;
+    line-height: 1.5;
     top: 50px;
     left: 50%;
     transform: translateX(-50%);
