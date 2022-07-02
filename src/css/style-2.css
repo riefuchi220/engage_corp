@@ -27,7 +27,7 @@ body {
 
 /* recruit-about */
 .key {
-  margin-bottom: 317px;
+  margin-bottom: 200px;
 }
 .key-inner {
   max-width: 120rem;
@@ -62,7 +62,7 @@ body {
 
 .about-first {
   position: relative;
-  margin-bottom: 270px;
+  margin-bottom: 230px;
   max-width: 1400px;
 }
 .about-orange {
@@ -87,7 +87,7 @@ body {
 
 .about-second {
   position: relative;
-  margin-bottom: 410px;
+  margin-bottom: 330px;
   max-width: 1400px;
 }
 .about-orange-second {
@@ -109,6 +109,10 @@ body {
   max-width: 64rem;
   position: relative;
   z-index: 1;
+}
+.about-link {
+  color: #F26021;
+  text-decoration: underline;
 }
 
 .about-third {
