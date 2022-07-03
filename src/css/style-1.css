@@ -9,6 +9,7 @@ body {
   margin: 0 auto;
   position: relative;
   box-sizing: border-box;
+  width: 1400px;
 }
 
 html {
@@ -53,7 +54,7 @@ header {
   height: 80px;
   z-index: 10;
   background-color: #fff;
-  width: 100%;
+  width: 1400px;
 }
 
 .bg-pink {
@@ -177,7 +178,7 @@ h1 {
 }
 
 .employee-talk-top-img {
-  background: url(../img/icons/IMG_08_01.png) no-repeat center center;
+  background: url(../img/icons/IMG_08_01.jpg) no-repeat center center;
   background-size: cover;
   position: absolute;
   top: 15%;
@@ -594,6 +595,7 @@ ul.table-of-contents-text > li a:hover {
 
 @media screen and (max-width:600px) {
   body {
+    width: auto;
     text-align: center;
   }
 
@@ -603,6 +605,7 @@ ul.table-of-contents-text > li a:hover {
 
   header {
     height: 64px;
+    width: auto;
   }
 
   .l-header__nav-list {
@@ -631,7 +634,7 @@ ul.table-of-contents-text > li a:hover {
 
   .sp-employee-talk-top-img {
     display: block;
-    background: url(../img/icons/IMG_08_01.png) no-repeat center center;
+    background: url(../img/icons/IMG_08_01.jpg) no-repeat center center;
     background-size: cover;
     position: absolute;
     top: 70%;
@@ -764,6 +767,7 @@ ul.table-of-contents-text > li a:hover {
 
   .inquiry-text {
     margin: 25px 17px 19px;
+    text-align: left;
   }
 
   .inquiry-btn-content {

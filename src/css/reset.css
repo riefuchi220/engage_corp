@@ -6,7 +6,9 @@ html {
 }
 
 body {
-  margin: 0
+  margin: 0;
+  box-sizing: border-box;
+  width: 1400px;
 }
 
 main {
@@ -178,4 +180,10 @@ template {
 
 [hidden] {
   display: none
+}
+
+@media screen and (max-width:600px) {
+  body {
+    width: auto;
+  }
 }
