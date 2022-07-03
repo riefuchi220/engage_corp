@@ -225,6 +225,16 @@ h1 {
   margin-top: 93px;
 }
 
+ul.table-of-contents-text > li a {
+  border-bottom: 1px solid #333;
+  padding-bottom: 4px;
+}
+
+ul.table-of-contents-text > li a:hover {
+  border-bottom: none;
+  transition: all .3s;
+}
+
 .table-of-contents-title {
   font-size: 2rem;
   margin: 0;
