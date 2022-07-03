@@ -212,14 +212,24 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 30px auto;
+  margin: 20px auto;
   padding-inline-start: 0px;
-  font-size: 2.0rem;
+  font-size: 1.6rem;
 }
 
 .l-header__nav-list li {
   margin-left: 10px;
   margin-right: 10px;
+
+}
+
+ul.l-header__nav-list > li a {
+  border-bottom: 1px solid #f26021;
+  padding-bottom: 4px;
+}
+
+ul.l-header__nav-list > li a:hover {
+  border-bottom: none;
 }
 
 .container {
