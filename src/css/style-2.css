@@ -114,6 +114,10 @@ body {
 .about-link {
   color: #F26021;
   text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.about-link:hover {
+  text-decoration: none;
 }
 
 .about-third {
@@ -383,7 +387,7 @@ body {
     max-width: 1400px;
   }
   .about-second-content {
-    display: block;
+    display: block!important;
   }
   .about-orange-second {
     background: none;
