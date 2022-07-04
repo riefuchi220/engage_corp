@@ -614,7 +614,7 @@ ul.table-of-contents-text > li a:hover {
 
   header {
     height: 64px;
-    width: auto;
+    width: 100%;
   }
 
   .l-header__nav-list {
