@@ -13,9 +13,10 @@ body {
 /* tailwind zone */
 .fixed { position: fixed; }
 .relative { position: relative; }
-.flex { display: flex; }
+.flex { display: flex!important; }
 .justify-end { justify-content: flex-end;}
 .justify-start { justify-content: flex-start;}
+.items-center {align-items: center;}
 .text-center{ text-align: center;}
 .w-full { width: 100%; }
 .m-0 {margin: 0;}
@@ -27,7 +28,7 @@ body {
 
 /* recruit-about */
 .key {
-  margin-bottom: 317px;
+  margin-bottom: 200px;
 }
 .key-inner {
   max-width: 120rem;
@@ -62,7 +63,7 @@ body {
 
 .about-first {
   position: relative;
-  margin-bottom: 270px;
+  margin-bottom: 230px;
   max-width: 1400px;
 }
 .about-orange {
@@ -87,7 +88,7 @@ body {
 
 .about-second {
   position: relative;
-  margin-bottom: 410px;
+  margin-bottom: 330px;
   max-width: 1400px;
 }
 .about-orange-second {
@@ -109,6 +110,14 @@ body {
   max-width: 64rem;
   position: relative;
   z-index: 1;
+}
+.about-link {
+  color: #F26021;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+.about-link:hover {
+  text-decoration: none;
 }
 
 .about-third {
@@ -378,7 +387,7 @@ body {
     max-width: 1400px;
   }
   .about-second-content {
-    display: block;
+    display: block!important;
   }
   .about-orange-second {
     background: none;
@@ -407,12 +416,7 @@ body {
     max-width: 1400px;
   }
   .about-orange-third {
-    background: linear-gradient(111deg, #F59050 0%, #ED5A1B 100%);
-    max-width: 900px;
-    height: 400px;
-    margin-top: 390px;
-    right: 0;
-    position: absolute;
+    display: none;
   }
   .about-environments {
     display: block;
@@ -502,7 +506,8 @@ body {
     margin-bottom: 60px;
   }
   .info tr {
-    display: block;
+    display: flex;
+    align-items: center;
     padding-bottom: 48px;
     border-bottom: 1px solid #F26022;
     margin-bottom: 50px;
@@ -514,14 +519,17 @@ body {
     margin: 0;
   }
   .info th {
-    max-width: 150px;
+    width: 40%;
     font-weight: normal;
     text-align: center;
     color: #F26022;
   }
+  .info td {
+    width: 60%;
+  }
   .info th div {
-    max-width: 150px;
     margin: 0 12px;
+    word-break: keep-all;
   }
 
   .flow {
@@ -551,7 +559,7 @@ body {
     display: inline-block;
     color: #F26022;
     font-size: 20px;
-    width: 140px;
+    width: 60%;
     margin: 0;
   }
   .flow-step li div {
