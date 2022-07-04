@@ -5,7 +5,7 @@ body {
   font-family: "Hiragino Kaku Gothic ProN";
   color: #707070;
   background-color: #fff;
-  line-height: 1;
+  line-height: 1.5;
   margin: 0 auto;
   position: relative;
   box-sizing: border-box;
@@ -18,7 +18,7 @@ html {
 
 main {
   font-size: 1.6rem;
-  line-height: 1.5;
+  line-height: 1.8;
 }
 
 img {
@@ -203,14 +203,23 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: 30px auto;
+  margin: 20px auto;
   padding-inline-start: 0px;
-  font-size: 2.0rem;
+  font-size: 1.6rem;
 }
 
 .l-header__nav-list li {
   margin-left: 10px;
   margin-right: 10px;
+}
+
+ul.l-header__nav-list > li a {
+  border-bottom: 1px solid #f26021;
+  padding-bottom: 4px;
+}
+
+ul.l-header__nav-list > li a:hover {
+  border-bottom: none;
 }
 
 .container {
@@ -224,6 +233,16 @@ h1 {
   padding: 40px 0 55px;
   margin-bottom: 65px;
   margin-top: 93px;
+}
+
+ul.table-of-contents-text > li a {
+  border-bottom: 1px solid #333;
+  padding-bottom: 4px;
+}
+
+ul.table-of-contents-text > li a:hover {
+  border-bottom: none;
+  transition: all .3s;
 }
 
 .table-of-contents-title {
