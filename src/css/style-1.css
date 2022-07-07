@@ -635,6 +635,8 @@ ul.table-of-contents-text > li a:hover {
 
 .relative { position: relative; }
 
+.text-right { text-align: right; }
+
 @media screen and (max-width:600px) {
   body {
     width: auto;
