@@ -244,6 +244,23 @@ ul.l-header__nav-list > li a:hover::after {
   transform: scale(1, 1);
 }
 
+.btn-underline span:after {
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 1px;
+  background: #f26021;
+  transform: scale(0, 1);
+  transform-origin: center top;
+  transition: transform .3s;
+}
+
+.btn-underline:hover span::after {
+  transform: scale(1, 1);
+}
+
 .container {
   max-width: 980px;
   margin: 0 auto;
@@ -649,6 +666,8 @@ ul.table-of-contents-text > li a:hover {
 .scroll-to-top-btn:hover {
   transform: scale(1.1);
 }
+
+.relative { position: relative; }
 
 @media screen and (max-width:600px) {
   body {
