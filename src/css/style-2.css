@@ -1,12 +1,9 @@
 @charset "UTF-8";
 
 /* 要素ゾーン */
-body {
-  width: 1400px;
-}
 .main {
   padding-top: 13.6rem;
-  max-width: 1400px;
+  width: 1400px;
   margin: 0 auto;
 }
 
@@ -39,6 +36,17 @@ body {
   background: url(../img/IMG_01.jpg) no-repeat center/cover;
   position: relative;
   margin: 0 auto;
+}
+.key-sub-title {
+  position: absolute;
+  text-align: left;
+  font-size: 3.2rem;
+  line-height: 1.4;
+  top: 4%;
+  left: 4%;
+}
+.key-sub-title-ja {
+  font-size: 2.0rem;
 }
 .key-title {
   font-size: 4rem;
@@ -293,6 +301,8 @@ body {
   }
   .main {
     padding-top: 64px;
+    width: auto;
+    max-width: 1400px;
   }
 
   .flex { display: block !important; }
@@ -310,8 +320,17 @@ body {
     height: auto;
     padding-bottom: 50%;
   }
+  .key-sub-title {
+    text-align: center;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 2.4rem;
+  }
+  .key-sub-title-ja {
+    font-size: 1.6rem;
+  }
   .key-title {
-    padding: 50px 0;
+    padding: 90px 0 50px;
   }
   .key-img {
     display: none;
@@ -319,7 +338,7 @@ body {
   .key-img-sp {
     display: inline-block;
     width: 90%;
-    top: 150px;
+    top: 200px;
     left: 50%;
     transform: translateX(-50%);
     position: absolute;

@@ -9,7 +9,6 @@ body {
   margin: 0 auto;
   position: relative;
   box-sizing: border-box;
-  width: 1400px;
 }
 
 html {
@@ -17,6 +16,11 @@ html {
 }
 
 main {
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+
+footer {
   font-size: 1.6rem;
   line-height: 1.8;
 }
@@ -53,7 +57,8 @@ header {
   position: fixed;
   z-index: 10;
   background-color: #fff;
-  width: 1400px;
+  width: 100%;
+  box-shadow: 0px 3px 6px #6A6A7929;
 }
 
 .bg-pink {
